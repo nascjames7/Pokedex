@@ -10,3 +10,6 @@ Procedimento
 5.Criar pastas ra organizar nosso projeto atráves do comando: mkdir assets, mkdir assets/css e mkdir assets/js.
 6.Criar arquivos nas pastas criadas para guardar os documentos relativos as implementações em CSS e JavaScript. Usa-se os comandos: 
 touch ./assets/css/global.css e touch ./assets/js/main.js
+7.Adionar no documento HTML as tags: <link rel="stylesheet" href="/assets.css/global.css"> na parte final do head e <script src="/assets/js/main.js"></script> na parte final do body.
+
+As fontes foram adicionadas utilizando o google fonts (https://fonts.google.com/specimen/Roboto?query=roboto) para utilizarmos a fonte roboto (100, 300, 500 e 700). Os links foram então adicionados no arauivo index.html no head.
