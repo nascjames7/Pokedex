@@ -1,0 +1,13 @@
+/*Utilização da fonte Roboto, e caso não encontre, 
+a fonte sans-serif será utilizada.*/
+*{
+    font-family: 'Roboto', sans-serif; 
+}
+
+.content{
+    padding: 1rem;
+}
+
+.content h1{
+    margin: 0;
+}
