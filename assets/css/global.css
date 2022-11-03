@@ -1,7 +1,8 @@
 /*Utilização da fonte Roboto, e caso não encontre, 
 a fonte sans-serif será utilizada.*/
 *{
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box; 
 }
 
 .content{
@@ -21,10 +22,17 @@ ol.pokemons{
 }
 
 ol.pokemons li{
+    display: flex;
+    flex-direction: column;
     margin: 0.5rem;
-    padding: 2rem 1rem;
+    padding: 1rem;
     border-radius: 1rem;
     background-color: #14A06F;
     color: #fff;
-    height: 90px;
+    
+}
+
+ol.pokemons li img{
+    max-width: 100%;
+    height: 100px;
 }
